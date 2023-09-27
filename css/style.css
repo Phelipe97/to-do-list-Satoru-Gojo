@@ -1,0 +1,143 @@
+/* Geral */
+*{
+    padding:0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f1455;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/wallpaper-satoru-gojo-jujutsu-kaisen-1200-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1b0ceba1;
+}
+
+button{
+    background-color: #fdfdfd;
+    color: #0a1d5e;
+    border: 2px 10px 10px solid black;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor:pointer;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: #0a1d5e;
+    color: white;
+}
+button:hover > i{
+    color: white;
+}
+button i{
+    color: #0a1d5e;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+input, 
+select{
+    padding: 0.25rem 0.5rem;
+}
+.hide{
+    display: none;
+}
+
+/* To do header */
+.todo-container{
+    max-width: 450px;
+    margin: 3rem auto ;
+    background-color: rgba(255, 255, 255, 0.514);
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+.todo-container header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+/* To do form */
+
+#todo-form, #edit-form{
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+#todo-form p,
+#edit-form p{
+    margin-bottom:0.5rem;
+    font-weight: bold;
+}
+.form-control{
+    display: flex;
+}
+.form-control input{
+    margin-right: .3rem;
+}
+#cancel-edit-btn{
+    margin-top: 1rem;   
+}
+/*  To do toolbar */
+
+#toolbar{
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+#toolbar h4{
+    margin-bottom: 0.5rem;;
+}
+
+#search{
+    border-right: 1px solid #ddd;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+#search form {
+    display: flex;
+}
+#search input{
+    width: 100%;
+    margin-right: 0.3rem;
+}
+#filter{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+#filter select{
+    flex: 1;
+}
+
+/* To do lista */
+
+.todo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #ddd;
+    transition: .3s;
+}
+.todo h3{
+    flex: 1;
+    font-size: .9rem;
+}
+.todo button{
+    margin-left: 0.4rem;
+}
+.done {
+    background-color: #3b506e;
+}
+.done h3{
+    color: white;
+    text-decoration: line-through;
+    font-style: italic;
+}
