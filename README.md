@@ -2,7 +2,6 @@
 
 lista de tarefas em homenagem a um dos meus personagens favoritos dos animes <b>Satoru Gojo</b>.
 
-| :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Titulo do meu projeto**
 | :label: Tecnologias | html, css, javascript (tecnologias utilizadas)
